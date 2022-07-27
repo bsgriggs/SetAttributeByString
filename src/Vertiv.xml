@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<widget id="mendix.vertiv.Vertiv" pluginWidget="true" needsEntityContext="true" offlineCapable="true"
+        supportedPlatform="Web"
+        xmlns="http://www.mendix.com/widget/1.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.mendix.com/widget/1.0/ ../node_modules/mendix/custom_widget.xsd">
+    <name>Vertiv</name>
+    <description>My widget description</description>
+    <icon/>
+    <properties>
+        <propertyGroup caption="General">
+            <property key="stringToSet" type="expression" defaultValue="">
+                <caption>String to Set</caption>
+                <description></description>
+                <returnType type="String" />
+            </property>
+            <property key="attributeToSet" type="attribute" onChange="onChange">
+                <caption>Attribute to Set</caption>
+                <description></description>
+                <attributeTypes>
+                    <attributeType name="String" />
+                </attributeTypes>
+            </property>
+            <property key="onChange" type="action">
+                <caption>On Change Action</caption>
+                <description></description>
+            </property>
+        </propertyGroup>
+    </properties>
+</widget>
