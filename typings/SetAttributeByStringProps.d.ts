@@ -1,12 +1,12 @@
 /**
- * This file was generated from Vertiv.xml
+ * This file was generated from SetAttributeByString.xml
  * WARNING: All changes made to this file will be overwritten
  * @author Mendix UI Content Team
  */
 import { CSSProperties } from "react";
 import { DynamicValue, EditableValue } from "mendix";
 
-export interface VertivContainerProps {
+export interface SetAttributeByStringContainerProps {
     name: string;
     class: string;
     style?: CSSProperties;
@@ -15,7 +15,7 @@ export interface VertivContainerProps {
     attributeToSet: EditableValue<string>;
 }
 
-export interface VertivPreviewProps {
+export interface SetAttributeByStringPreviewProps {
     className: string;
     style: string;
     styleObject?: CSSProperties;

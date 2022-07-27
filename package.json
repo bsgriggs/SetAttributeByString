@@ -1,8 +1,8 @@
 {
-  "name": "vertiv",
-  "widgetName": "Vertiv",
+  "name": "setattributebystring",
+  "widgetName": "SetAttributeByString",
   "version": "1.0.0",
-  "description": "My widget description",
+  "description": "",
   "copyright": "© Mendix Technology BV 2022. All rights reserved.",
   "author": "Benjamin Griggs",
   "engines": {

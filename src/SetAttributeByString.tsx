@@ -1,16 +1,13 @@
 import { createElement } from "react";
 import {ValueStatus} from "mendix";
 
-import { VertivContainerProps } from "../typings/VertivProps";
+import { SetAttributeByStringContainerProps } from "../typings/SetAttributeByStringProps";
 
-import "./ui/Vertiv.css";
-
-const Vertiv = (props: VertivContainerProps):JSX.Element => {
+const SetAttributeByString = (props: SetAttributeByStringContainerProps):JSX.Element => {
 
     if (props.attributeToSet.status === ValueStatus.Available && props.stringToSet.status === ValueStatus.Available){
         props.attributeToSet.setValue(props.stringToSet.value);
     }
-
 
     return(
         <div style={{display: "none"}}>
@@ -19,4 +16,4 @@ const Vertiv = (props: VertivContainerProps):JSX.Element => {
 }
 
 
-export default Vertiv; 
+export default SetAttributeByString; 
